@@ -1,6 +1,6 @@
-reg <- read.csv("/Users/anujthakkar/Documents/Purdue/STAT355/DS Project/NBA Regular Season.csv")
+reg <- read.csv("/Users/anujthakkar/Documents/DS Project/NBA Regular Season.csv")
 reg <- reg[1:22,]
-restart <- read.csv("/Users/anujthakkar/Documents/Purdue/STAT355/DS Project/NBA Restart.csv")
+restart <- read.csv("/Users/anujthakkar/Documents/DS Project/NBA Restart.csv")
 teams <- c("BOS", "BKN", "DAL", "DEN", "HOU", "IND", "LAC", "LAL", "MEM", "MIA", "MIL", "NOP", "OKC", "ORL", "PHI", "PHX", "POR", "SAC", "SAS", "TOR", "UTA", "WAS")
 colors <- c("dark green", "black", "blue", "orange", "red3", "yellow", "red3", "purple", "navy", "red", "dark green", "red3", "blue", "blue", "red3", "orange", "red3", "purple4", "grey", "black", "purple4", "grey")
 
